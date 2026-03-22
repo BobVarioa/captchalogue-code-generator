@@ -1,0 +1,22 @@
+{
+  "name": "captchalogue-code-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node ./build.mjs",
+    "serve": "npx serve ./dist"
+  },
+  "author": "Bob Varioa",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/seedrandom": "^3.0.8",
+    "esbuild": "^0.27.4",
+    "serve": "^14.2.6"
+  },
+  "dependencies": {
+    "compress-jpeg": "^1.1.1",
+    "seedrandom": "^3.0.5"
+  }
+}
